@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nischay Bareja</title>
+    <s>
+        <link rel="stylesheet" href="main.css">
+    </s>
+</head>
+
+<body>
+
+    <!-- /// wrapper starts /// -->
+    <div class="wrapper">
+        <div class="circle-top circle"></div>
+        <div class="circle-bottom circle"></div>
+
+        <!-- /// card starts /// -->
+        <div class="card">
+            <img src="./images/Photo 1.jpg" alt="user image">
+            <h2 class="user-name">Nischay Bareja</h2>
+            <h3 class="user-designation">Student, Chitkara University</h3>
+
+            <div class="buttons-group">
+                <button id="share-btn">
+                    <i class="fa-solid fa-share"></i>
+                    Share My Profile
+                </button>
+                <button id="follow-btn">Follow Me</button>
+            </div>
+        </div>
+        <!-- /// card ends /// -->
+    </div>
+    <!-- /// wrapper ends /// -->
+
+
+    <!-- /// profile Modal starts /// -->
+    <div class="modal" id="profile-modal">
+        <!-- modal header -->
+        <div class="modal-header">
+            <h2 class="modal-title">Share My Profile</h2>
+            <div>
+                <i class="fa-solid fa-xmark modal-close" id="profile-modal-close"></i>
+            </div>
+        </div>
+
+        <!-- modal body -->
+        <div class="modal-body">
+            <h3>Share this via</h3>
+
+            <div class="social-icons">
+                <a href="#" id="facebook-icon" class="icon" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/Nischay_03" id="twitter-icon" class="icon" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/nischay_03" id="instagram-icon" class="icon" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" id="whatsapp-icon" class="icon" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="www.linkedin.com/in/nischay-bareja" id="linkedin-icon" class="icon" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /// profile Modal ends /// -->
+
+
+    <!-- /// follow Modal starts /// -->
+    <div class="modal" id="follow-modal">
+        <!-- modal header -->
+        <div class="modal-header">
+            <h2 class="modal-title">Github Profile</h2>
+            <div>
+                <i class="fa-solid fa-xmark modal-close" id="follow-modal-close"></i>
+            </div>
+        </div>
+
+        <!-- modal body -->
+        <div class="modal-body">
+            <h3>Check my Repositories</h3>
+
+            <div class="social-icons">
+                <a href="https://github.com/NISCHAY3" id="github-icon" class="icon" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://github.com/NISCHAY3" id="follow-unfollow" target="_blank">
+                    Follow
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /// follow Modal ends /// -->
+
+    <!-- overlay -->
+    <div class="overlay" id="overlay"></div>
+
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
